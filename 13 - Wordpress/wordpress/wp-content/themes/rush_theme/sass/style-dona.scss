@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# Single Page Content
+--------------------------------------------------------------*/
+
+
+#button_post{
+    width: 15vw;
+    height: 10vh;
+    background-color: palegreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#button_post a, .nav-item a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.sup_info{
+    width: 400px;
+}
+
+// .row{
+//     height: 300px;
+//     max-height: 100%;
+// }
+
+.img{
+    display: flex;
+    height: 450px;
+    max-height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.card-img-top{
+    max-width: 100%;
+  height: auto;
+}
+
+.col-sm-4{
+    margin-bottom: 35px;
+}
+
+.nav-item a{
+    color: rgb(0, 0, 0);
+}
+
+.card-body{
+    background-color: rgb(207, 207, 207,0.3);
+}
